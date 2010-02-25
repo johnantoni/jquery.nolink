@@ -1,0 +1,7 @@
+How to use?
+-----------
+
+$("a.submit").nolink();
+
+Adds JavaScript:void(0); to submit links href attribute. Use this to handle 
+them differently when javascript is available for progressive enhancement.

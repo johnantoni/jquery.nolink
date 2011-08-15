@@ -5,3 +5,7 @@ $("a.submit").nolink();
 
 Adds JavaScript:void(0); to the href attribute of links with the submit class href attribute. 
 Used to handle links differently when javascript is available using progressive enhancement.
+
+now superseeded by .preventDefault();
+
+http://api.jquery.com/event.preventDefault/
